@@ -8,7 +8,7 @@ class AppBarWidget extends PreferredSize {
       : super(
           preferredSize: Size.fromHeight(250),
           child: Padding(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
             child: SafeArea(
               child: Container(
                 child: Row(
